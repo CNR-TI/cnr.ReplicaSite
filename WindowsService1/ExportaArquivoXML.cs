@@ -51,6 +51,7 @@ namespace ReplicaSiteWS
                             ds.Merge(blo.ObterRegistros("medida_material"));
                             ds.Merge(blo.ObterRegistros("tipo_logradouro"));
                             ds.Merge(blo.ObterRegistros("tipo_profissional_site"));
+                            ds.Merge(blo.ObterRegistros("material_complemento_site"));
 
                             foreach (DataTable item in ds.Tables)
                             {

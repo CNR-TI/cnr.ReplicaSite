@@ -2,6 +2,7 @@
 
 namespace cnr.ReplicaSite.Lib.Classes
 {
+
     [XmlRoot(ElementName = "ReplicaSiteCNR")]
     public class classe_material
     {

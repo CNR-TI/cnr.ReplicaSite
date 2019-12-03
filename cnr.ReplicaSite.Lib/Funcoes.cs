@@ -4,13 +4,14 @@ using System.Data;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
-using System.Xml;
 using System.Xml.Serialization;
 
 namespace cnr.ReplicaSite.Lib
 {
     public static class Funcoes
     {
+        const string senha = "CNR";
+
         public static string ToXml(this DataSet ds)
         {
             using (var memoryStream = new MemoryStream())
@@ -23,7 +24,6 @@ namespace cnr.ReplicaSite.Lib
                 }
             }
         }
-
         public static string Serializar<T>(T obj)
         {
             XmlSerializer serializador = new XmlSerializer(typeof(T));
@@ -31,7 +31,6 @@ namespace cnr.ReplicaSite.Lib
             serializador.Serialize(writer, obj);
             return writer.ToString();
         }
-
         public static ConfiguracaoReplicaSite Deserializar(string fileName)
         {
             ConfiguracaoReplicaSite a;
@@ -42,7 +41,6 @@ namespace cnr.ReplicaSite.Lib
 
             return a;
         }
-
         public static void gravarLog(string ex, string diretorio)
         {
 
@@ -62,10 +60,6 @@ namespace cnr.ReplicaSite.Lib
                 fs.Close();
             }
         }
-
-
-        const string senha = "CNR";
-
         public static string Criptografar(string Message)
         {
             byte[] Results;
@@ -89,7 +83,6 @@ namespace cnr.ReplicaSite.Lib
             }
             return Convert.ToBase64String(Results);
         }
-
         public static string Descriptografar(string Message)
         {
             byte[] Results;
@@ -113,7 +106,6 @@ namespace cnr.ReplicaSite.Lib
             }
             return UTF8.GetString(Results);
         }
-
 
     }
 }

@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsReplicaSite" targetNamespace="http://tempuri.org/dsReplicaSite.xsd" xmlns:mstns="http://tempuri.org/dsReplicaSite.xsd" xmlns="http://tempuri.org/dsReplicaSite.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="cnr_admConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="cnr_admConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.cnr.ReplicaSite.Lib.Properties.Settings.GlobalReference.Default.cnr_admConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsReplicaSite" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsReplicaSite" msprop:Generator_UserDSName="dsReplicaSite">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="classe_material" msprop:Generator_TableClassName="classe_materialDataTable" msprop:Generator_TableVarName="tableclasse_material" msprop:Generator_TablePropName="classe_material" msprop:Generator_RowDeletingName="classe_materialRowDeleting" msprop:Generator_RowChangingName="classe_materialRowChanging" msprop:Generator_RowEvHandlerName="classe_materialRowChangeEventHandler" msprop:Generator_RowDeletedName="classe_materialRowDeleted" msprop:Generator_UserTableName="classe_material" msprop:Generator_RowChangedName="classe_materialRowChanged" msprop:Generator_RowEvArgName="classe_materialRowChangeEvent" msprop:Generator_RowClassName="classe_materialRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="classe_material_id" msprop:Generator_ColumnVarNameInTable="columnclasse_material_id" msprop:Generator_ColumnPropNameInRow="classe_material_id" msprop:Generator_ColumnPropNameInTable="classe_material_idColumn" msprop:Generator_UserColumnName="classe_material_id">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="classificacao_material" msprop:Generator_TableClassName="classificacao_materialDataTable" msprop:Generator_TableVarName="tableclassificacao_material" msprop:Generator_TablePropName="classificacao_material" msprop:Generator_RowDeletingName="classificacao_materialRowDeleting" msprop:Generator_RowChangingName="classificacao_materialRowChanging" msprop:Generator_RowEvHandlerName="classificacao_materialRowChangeEventHandler" msprop:Generator_RowDeletedName="classificacao_materialRowDeleted" msprop:Generator_UserTableName="classificacao_material" msprop:Generator_RowChangedName="classificacao_materialRowChanged" msprop:Generator_RowEvArgName="classificacao_materialRowChangeEvent" msprop:Generator_RowClassName="classificacao_materialRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="classificacao_material_id" msprop:Generator_ColumnVarNameInTable="columnclassificacao_material_id" msprop:Generator_ColumnPropNameInRow="classificacao_material_id" msprop:Generator_ColumnPropNameInTable="classificacao_material_idColumn" msprop:Generator_UserColumnName="classificacao_material_id">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="cor_material" msprop:Generator_TableClassName="cor_materialDataTable" msprop:Generator_TableVarName="tablecor_material" msprop:Generator_TablePropName="cor_material" msprop:Generator_RowDeletingName="cor_materialRowDeleting" msprop:Generator_RowChangingName="cor_materialRowChanging" msprop:Generator_RowEvHandlerName="cor_materialRowChangeEventHandler" msprop:Generator_RowDeletedName="cor_materialRowDeleted" msprop:Generator_UserTableName="cor_material" msprop:Generator_RowChangedName="cor_materialRowChanged" msprop:Generator_RowEvArgName="cor_materialRowChangeEvent" msprop:Generator_RowClassName="cor_materialRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cor_material_id" msprop:Generator_ColumnVarNameInTable="columncor_material_id" msprop:Generator_ColumnPropNameInRow="cor_material_id" msprop:Generator_ColumnPropNameInTable="cor_material_idColumn" msprop:Generator_UserColumnName="cor_material_id" type="xs:short" />
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="departamento_material" msprop:Generator_TableClassName="departamento_materialDataTable" msprop:Generator_TableVarName="tabledepartamento_material" msprop:Generator_TablePropName="departamento_material" msprop:Generator_RowDeletingName="departamento_materialRowDeleting" msprop:Generator_RowChangingName="departamento_materialRowChanging" msprop:Generator_RowEvHandlerName="departamento_materialRowChangeEventHandler" msprop:Generator_RowDeletedName="departamento_materialRowDeleted" msprop:Generator_UserTableName="departamento_material" msprop:Generator_RowChangedName="departamento_materialRowChanged" msprop:Generator_RowEvArgName="departamento_materialRowChangeEvent" msprop:Generator_RowClassName="departamento_materialRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="departamento_material_id" msprop:Generator_ColumnVarNameInTable="columndepartamento_material_id" msprop:Generator_ColumnPropNameInRow="departamento_material_id" msprop:Generator_ColumnPropNameInTable="departamento_material_idColumn" msprop:Generator_UserColumnName="departamento_material_id" type="xs:short" />
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descricao_slug" msprop:Generator_ColumnVarNameInTable="columndescricao_slug" msprop:Generator_ColumnPropNameInRow="descricao_slug" msprop:Generator_ColumnPropNameInTable="descricao_slugColumn" msprop:Generator_UserColumnName="descricao_slug" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="departamento_sub_material" msprop:Generator_TableClassName="departamento_sub_materialDataTable" msprop:Generator_TableVarName="tabledepartamento_sub_material" msprop:Generator_TablePropName="departamento_sub_material" msprop:Generator_RowDeletingName="departamento_sub_materialRowDeleting" msprop:Generator_RowChangingName="departamento_sub_materialRowChanging" msprop:Generator_RowEvHandlerName="departamento_sub_materialRowChangeEventHandler" msprop:Generator_RowDeletedName="departamento_sub_materialRowDeleted" msprop:Generator_UserTableName="departamento_sub_material" msprop:Generator_RowChangedName="departamento_sub_materialRowChanged" msprop:Generator_RowEvArgName="departamento_sub_materialRowChangeEvent" msprop:Generator_RowClassName="departamento_sub_materialRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="departamento_sub_material_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columndepartamento_sub_material_id" msprop:Generator_ColumnPropNameInRow="departamento_sub_material_id" msprop:Generator_ColumnPropNameInTable="departamento_sub_material_idColumn" msprop:Generator_UserColumnName="departamento_sub_material_id" type="xs:int" />
+              <xs:element name="departamento_material_id" msprop:Generator_ColumnVarNameInTable="columndepartamento_material_id" msprop:Generator_ColumnPropNameInRow="departamento_material_id" msprop:Generator_ColumnPropNameInTable="departamento_material_idColumn" msprop:Generator_UserColumnName="departamento_material_id" type="xs:short" />
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descricao_sub_slug" msprop:Generator_ColumnVarNameInTable="columndescricao_sub_slug" msprop:Generator_ColumnPropNameInRow="descricao_sub_slug" msprop:Generator_ColumnPropNameInTable="descricao_sub_slugColumn" msprop:Generator_UserColumnName="descricao_sub_slug">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="departamento_sub_material_material" msprop:Generator_TableClassName="departamento_sub_material_materialDataTable" msprop:Generator_TableVarName="tabledepartamento_sub_material_material" msprop:Generator_TablePropName="departamento_sub_material_material" msprop:Generator_RowDeletingName="departamento_sub_material_materialRowDeleting" msprop:Generator_RowChangingName="departamento_sub_material_materialRowChanging" msprop:Generator_RowEvHandlerName="departamento_sub_material_materialRowChangeEventHandler" msprop:Generator_RowDeletedName="departamento_sub_material_materialRowDeleted" msprop:Generator_UserTableName="departamento_sub_material_material" msprop:Generator_RowChangedName="departamento_sub_material_materialRowChanged" msprop:Generator_RowEvArgName="departamento_sub_material_materialRowChangeEvent" msprop:Generator_RowClassName="departamento_sub_material_materialRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="departamento_sub_material_id" msprop:Generator_ColumnVarNameInTable="columndepartamento_sub_material_id" msprop:Generator_ColumnPropNameInRow="departamento_sub_material_id" msprop:Generator_ColumnPropNameInTable="departamento_sub_material_idColumn" msprop:Generator_UserColumnName="departamento_sub_material_id" type="xs:int" />
+              <xs:element name="material_id" msprop:Generator_ColumnVarNameInTable="columnmaterial_id" msprop:Generator_ColumnPropNameInRow="material_id" msprop:Generator_ColumnPropNameInTable="material_idColumn" msprop:Generator_UserColumnName="material_id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="fornecedor_material" msprop:Generator_TableClassName="fornecedor_materialDataTable" msprop:Generator_TableVarName="tablefornecedor_material" msprop:Generator_TablePropName="fornecedor_material" msprop:Generator_RowDeletingName="fornecedor_materialRowDeleting" msprop:Generator_RowChangingName="fornecedor_materialRowChanging" msprop:Generator_RowEvHandlerName="fornecedor_materialRowChangeEventHandler" msprop:Generator_RowDeletedName="fornecedor_materialRowDeleted" msprop:Generator_UserTableName="fornecedor_material" msprop:Generator_RowChangedName="fornecedor_materialRowChanged" msprop:Generator_RowEvArgName="fornecedor_materialRowChangeEvent" msprop:Generator_RowClassName="fornecedor_materialRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fornecedor_material_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnfornecedor_material_id" msprop:Generator_ColumnPropNameInRow="fornecedor_material_id" msprop:Generator_ColumnPropNameInTable="fornecedor_material_idColumn" msprop:Generator_UserColumnName="fornecedor_material_id" type="xs:short" />
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cnpj" msprop:Generator_ColumnVarNameInTable="columncnpj" msprop:Generator_ColumnPropNameInRow="cnpj" msprop:Generator_ColumnPropNameInTable="cnpjColumn" msprop:Generator_UserColumnName="cnpj">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="obs" msprop:Generator_ColumnVarNameInTable="columnobs" msprop:Generator_ColumnPropNameInRow="obs" msprop:Generator_ColumnPropNameInTable="obsColumn" msprop:Generator_UserColumnName="obs" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ativo" msprop:Generator_ColumnVarNameInTable="columnativo" msprop:Generator_ColumnPropNameInRow="ativo" msprop:Generator_ColumnPropNameInTable="ativoColumn" msprop:Generator_UserColumnName="ativo" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="grupo_material" msprop:Generator_TableClassName="grupo_materialDataTable" msprop:Generator_TableVarName="tablegrupo_material" msprop:Generator_TablePropName="grupo_material" msprop:Generator_RowDeletingName="grupo_materialRowDeleting" msprop:Generator_RowChangingName="grupo_materialRowChanging" msprop:Generator_RowEvHandlerName="grupo_materialRowChangeEventHandler" msprop:Generator_RowDeletedName="grupo_materialRowDeleted" msprop:Generator_UserTableName="grupo_material" msprop:Generator_RowChangedName="grupo_materialRowChanged" msprop:Generator_RowEvArgName="grupo_materialRowChangeEvent" msprop:Generator_RowClassName="grupo_materialRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="grupo_material_id" msprop:Generator_ColumnVarNameInTable="columngrupo_material_id" msprop:Generator_ColumnPropNameInRow="grupo_material_id" msprop:Generator_ColumnPropNameInTable="grupo_material_idColumn" msprop:Generator_UserColumnName="grupo_material_id" type="xs:unsignedByte" />
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pei_obrigatorio" msprop:Generator_ColumnVarNameInTable="columnpei_obrigatorio" msprop:Generator_ColumnPropNameInRow="pei_obrigatorio" msprop:Generator_ColumnPropNameInTable="pei_obrigatorioColumn" msprop:Generator_UserColumnName="pei_obrigatorio" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="linha_material" msprop:Generator_TableClassName="linha_materialDataTable" msprop:Generator_TableVarName="tablelinha_material" msprop:Generator_TablePropName="linha_material" msprop:Generator_RowDeletingName="linha_materialRowDeleting" msprop:Generator_RowChangingName="linha_materialRowChanging" msprop:Generator_RowEvHandlerName="linha_materialRowChangeEventHandler" msprop:Generator_RowDeletedName="linha_materialRowDeleted" msprop:Generator_UserTableName="linha_material" msprop:Generator_RowChangedName="linha_materialRowChanged" msprop:Generator_RowEvArgName="linha_materialRowChangeEvent" msprop:Generator_RowClassName="linha_materialRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fornecedor_material_id" msprop:Generator_ColumnVarNameInTable="columnfornecedor_material_id" msprop:Generator_ColumnPropNameInRow="fornecedor_material_id" msprop:Generator_ColumnPropNameInTable="fornecedor_material_idColumn" msprop:Generator_UserColumnName="fornecedor_material_id" type="xs:short" />
+              <xs:element name="linha_material_id" msprop:Generator_ColumnVarNameInTable="columnlinha_material_id" msprop:Generator_ColumnPropNameInRow="linha_material_id" msprop:Generator_ColumnPropNameInTable="linha_material_idColumn" msprop:Generator_UserColumnName="linha_material_id" type="xs:short" />
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ativo" msprop:Generator_ColumnVarNameInTable="columnativo" msprop:Generator_ColumnPropNameInRow="ativo" msprop:Generator_ColumnPropNameInTable="ativoColumn" msprop:Generator_UserColumnName="ativo" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="material_promocao_site" msprop:Generator_TableClassName="material_promocao_siteDataTable" msprop:Generator_TableVarName="tablematerial_promocao_site" msprop:Generator_TablePropName="material_promocao_site" msprop:Generator_RowDeletingName="material_promocao_siteRowDeleting" msprop:Generator_RowChangingName="material_promocao_siteRowChanging" msprop:Generator_RowEvHandlerName="material_promocao_siteRowChangeEventHandler" msprop:Generator_RowDeletedName="material_promocao_siteRowDeleted" msprop:Generator_UserTableName="material_promocao_site" msprop:Generator_RowChangedName="material_promocao_siteRowChanged" msprop:Generator_RowEvArgName="material_promocao_siteRowChangeEvent" msprop:Generator_RowClassName="material_promocao_siteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ordem_id" msprop:Generator_ColumnVarNameInTable="columnordem_id" msprop:Generator_ColumnPropNameInRow="ordem_id" msprop:Generator_ColumnPropNameInTable="ordem_idColumn" msprop:Generator_UserColumnName="ordem_id" type="xs:int" />
+              <xs:element name="fornecedor" msprop:Generator_ColumnVarNameInTable="columnfornecedor" msprop:Generator_ColumnPropNameInRow="fornecedor" msprop:Generator_ColumnPropNameInTable="fornecedorColumn" msprop:Generator_UserColumnName="fornecedor">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="codigos" msprop:Generator_ColumnVarNameInTable="columncodigos" msprop:Generator_ColumnPropNameInRow="codigos" msprop:Generator_ColumnPropNameInTable="codigosColumn" msprop:Generator_UserColumnName="codigos" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="de_preco" msprop:Generator_ColumnVarNameInTable="columnde_preco" msprop:Generator_ColumnPropNameInRow="de_preco" msprop:Generator_ColumnPropNameInTable="de_precoColumn" msprop:Generator_UserColumnName="de_preco" type="xs:decimal" />
+              <xs:element name="por_preco" msprop:Generator_ColumnVarNameInTable="columnpor_preco" msprop:Generator_ColumnPropNameInRow="por_preco" msprop:Generator_ColumnPropNameInTable="por_precoColumn" msprop:Generator_UserColumnName="por_preco" type="xs:decimal" />
+              <xs:element name="pagamento" msprop:Generator_ColumnVarNameInTable="columnpagamento" msprop:Generator_ColumnPropNameInRow="pagamento" msprop:Generator_ColumnPropNameInTable="pagamentoColumn" msprop:Generator_UserColumnName="pagamento">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="porque_comprar" msprop:Generator_ColumnVarNameInTable="columnporque_comprar" msprop:Generator_ColumnPropNameInRow="porque_comprar" msprop:Generator_ColumnPropNameInTable="porque_comprarColumn" msprop:Generator_UserColumnName="porque_comprar" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dica_instalacao" msprop:Generator_ColumnVarNameInTable="columndica_instalacao" msprop:Generator_ColumnPropNameInRow="dica_instalacao" msprop:Generator_ColumnPropNameInTable="dica_instalacaoColumn" msprop:Generator_UserColumnName="dica_instalacao" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dica_manutencao" msprop:Generator_ColumnVarNameInTable="columndica_manutencao" msprop:Generator_ColumnPropNameInRow="dica_manutencao" msprop:Generator_ColumnPropNameInTable="dica_manutencaoColumn" msprop:Generator_UserColumnName="dica_manutencao" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="registro_alterado" msprop:Generator_ColumnVarNameInTable="columnregistro_alterado" msprop:Generator_ColumnPropNameInRow="registro_alterado" msprop:Generator_ColumnPropNameInTable="registro_alteradoColumn" msprop:Generator_UserColumnName="registro_alterado" type="xs:boolean" minOccurs="0" />
+              <xs:element name="grupo_material_id" msprop:Generator_ColumnVarNameInTable="columngrupo_material_id" msprop:Generator_ColumnPropNameInRow="grupo_material_id" msprop:Generator_ColumnPropNameInTable="grupo_material_idColumn" msprop:Generator_UserColumnName="grupo_material_id" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="descricao_slug" msprop:Generator_ColumnVarNameInTable="columndescricao_slug" msprop:Generator_ColumnPropNameInRow="descricao_slug" msprop:Generator_ColumnPropNameInTable="descricao_slugColumn" msprop:Generator_UserColumnName="descricao_slug" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="material_site" msprop:Generator_TableClassName="material_siteDataTable" msprop:Generator_TableVarName="tablematerial_site" msprop:Generator_TablePropName="material_site" msprop:Generator_RowDeletingName="material_siteRowDeleting" msprop:Generator_RowChangingName="material_siteRowChanging" msprop:Generator_RowEvHandlerName="material_siteRowChangeEventHandler" msprop:Generator_RowDeletedName="material_siteRowDeleted" msprop:Generator_UserTableName="material_site" msprop:Generator_RowChangedName="material_siteRowChanged" msprop:Generator_RowEvArgName="material_siteRowChangeEvent" msprop:Generator_RowClassName="material_siteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="material_id" msprop:Generator_ColumnVarNameInTable="columnmaterial_id" msprop:Generator_ColumnPropNameInRow="material_id" msprop:Generator_ColumnPropNameInTable="material_idColumn" msprop:Generator_UserColumnName="material_id" type="xs:int" />
+              <xs:element name="fornecedor_material_id" msprop:Generator_ColumnVarNameInTable="columnfornecedor_material_id" msprop:Generator_ColumnPropNameInRow="fornecedor_material_id" msprop:Generator_ColumnPropNameInTable="fornecedor_material_idColumn" msprop:Generator_UserColumnName="fornecedor_material_id" type="xs:short" />
+              <xs:element name="linha_material_id" msprop:Generator_ColumnVarNameInTable="columnlinha_material_id" msprop:Generator_ColumnPropNameInRow="linha_material_id" msprop:Generator_ColumnPropNameInTable="linha_material_idColumn" msprop:Generator_UserColumnName="linha_material_id" type="xs:short" />
+              <xs:element name="grupo_material_id" msprop:Generator_ColumnVarNameInTable="columngrupo_material_id" msprop:Generator_ColumnPropNameInRow="grupo_material_id" msprop:Generator_ColumnPropNameInTable="grupo_material_idColumn" msprop:Generator_UserColumnName="grupo_material_id" type="xs:unsignedByte" />
+              <xs:element name="classificacao_material_id" msprop:Generator_ColumnVarNameInTable="columnclassificacao_material_id" msprop:Generator_ColumnPropNameInRow="classificacao_material_id" msprop:Generator_ColumnPropNameInTable="classificacao_material_idColumn" msprop:Generator_UserColumnName="classificacao_material_id">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cor_material_id" msprop:Generator_ColumnVarNameInTable="columncor_material_id" msprop:Generator_ColumnPropNameInRow="cor_material_id" msprop:Generator_ColumnPropNameInTable="cor_material_idColumn" msprop:Generator_UserColumnName="cor_material_id" type="xs:short" />
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="codigo_fornecedor" msprop:Generator_ColumnVarNameInTable="columncodigo_fornecedor" msprop:Generator_ColumnPropNameInRow="codigo_fornecedor" msprop:Generator_ColumnPropNameInTable="codigo_fornecedorColumn" msprop:Generator_UserColumnName="codigo_fornecedor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="medida_material_id" msprop:Generator_ColumnVarNameInTable="columnmedida_material_id" msprop:Generator_ColumnPropNameInRow="medida_material_id" msprop:Generator_ColumnPropNameInTable="medida_material_idColumn" msprop:Generator_UserColumnName="medida_material_id" type="xs:short" />
+              <xs:element name="pei" msprop:Generator_ColumnVarNameInTable="columnpei" msprop:Generator_ColumnPropNameInRow="pei" msprop:Generator_ColumnPropNameInTable="peiColumn" msprop:Generator_UserColumnName="pei" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="ton_bit_obrigatorio" msprop:Generator_ColumnVarNameInTable="columnton_bit_obrigatorio" msprop:Generator_ColumnPropNameInRow="ton_bit_obrigatorio" msprop:Generator_ColumnPropNameInTable="ton_bit_obrigatorioColumn" msprop:Generator_UserColumnName="ton_bit_obrigatorio" type="xs:boolean" />
+              <xs:element name="ativo" msprop:Generator_ColumnVarNameInTable="columnativo" msprop:Generator_ColumnPropNameInRow="ativo" msprop:Generator_ColumnPropNameInTable="ativoColumn" msprop:Generator_UserColumnName="ativo" type="xs:boolean" />
+              <xs:element name="data_entrada" msprop:Generator_ColumnVarNameInTable="columndata_entrada" msprop:Generator_ColumnPropNameInRow="data_entrada" msprop:Generator_ColumnPropNameInTable="data_entradaColumn" msprop:Generator_UserColumnName="data_entrada" type="xs:dateTime" />
+              <xs:element name="usuario" msprop:Generator_ColumnVarNameInTable="columnusuario" msprop:Generator_ColumnPropNameInRow="usuario" msprop:Generator_ColumnPropNameInTable="usuarioColumn" msprop:Generator_UserColumnName="usuario">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nbm_material" msprop:Generator_ColumnVarNameInTable="columnnbm_material" msprop:Generator_ColumnPropNameInRow="nbm_material" msprop:Generator_ColumnPropNameInTable="nbm_materialColumn" msprop:Generator_UserColumnName="nbm_material" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="departamento_material_id" msprop:Generator_ColumnVarNameInTable="columndepartamento_material_id" msprop:Generator_ColumnPropNameInRow="departamento_material_id" msprop:Generator_ColumnPropNameInTable="departamento_material_idColumn" msprop:Generator_UserColumnName="departamento_material_id" type="xs:short" />
+              <xs:element name="estrutura_departamento_material_id" msprop:Generator_ColumnVarNameInTable="columnestrutura_departamento_material_id" msprop:Generator_ColumnPropNameInRow="estrutura_departamento_material_id" msprop:Generator_ColumnPropNameInTable="estrutura_departamento_material_idColumn" msprop:Generator_UserColumnName="estrutura_departamento_material_id" type="xs:short" />
+              <xs:element name="grupo_ncm_id" msprop:Generator_ColumnVarNameInTable="columngrupo_ncm_id" msprop:Generator_ColumnPropNameInRow="grupo_ncm_id" msprop:Generator_ColumnPropNameInTable="grupo_ncm_idColumn" msprop:Generator_UserColumnName="grupo_ncm_id" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Subitem" msprop:Generator_ColumnVarNameInTable="columnSubitem" msprop:Generator_ColumnPropNameInRow="Subitem" msprop:Generator_ColumnPropNameInTable="SubitemColumn" msprop:Generator_UserColumnName="Subitem" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="importado" msprop:Generator_ColumnVarNameInTable="columnimportado" msprop:Generator_ColumnPropNameInRow="importado" msprop:Generator_ColumnPropNameInTable="importadoColumn" msprop:Generator_UserColumnName="importado" type="xs:boolean" />
+              <xs:element name="descricao_slug" msprop:Generator_ColumnVarNameInTable="columndescricao_slug" msprop:Generator_ColumnPropNameInRow="descricao_slug" msprop:Generator_ColumnPropNameInTable="descricao_slugColumn" msprop:Generator_UserColumnName="descricao_slug" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="medida_material" msprop:Generator_TableClassName="medida_materialDataTable" msprop:Generator_TableVarName="tablemedida_material" msprop:Generator_TablePropName="medida_material" msprop:Generator_RowDeletingName="medida_materialRowDeleting" msprop:Generator_RowChangingName="medida_materialRowChanging" msprop:Generator_RowEvHandlerName="medida_materialRowChangeEventHandler" msprop:Generator_RowDeletedName="medida_materialRowDeleted" msprop:Generator_UserTableName="medida_material" msprop:Generator_RowChangedName="medida_materialRowChanged" msprop:Generator_RowEvArgName="medida_materialRowChangeEvent" msprop:Generator_RowClassName="medida_materialRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="medida_material_id" msprop:Generator_ColumnVarNameInTable="columnmedida_material_id" msprop:Generator_ColumnPropNameInRow="medida_material_id" msprop:Generator_ColumnPropNameInTable="medida_material_idColumn" msprop:Generator_UserColumnName="medida_material_id" type="xs:short" />
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tipo_logradouro" msprop:Generator_TableClassName="tipo_logradouroDataTable" msprop:Generator_TableVarName="tabletipo_logradouro" msprop:Generator_TablePropName="tipo_logradouro" msprop:Generator_RowDeletingName="tipo_logradouroRowDeleting" msprop:Generator_RowChangingName="tipo_logradouroRowChanging" msprop:Generator_RowEvHandlerName="tipo_logradouroRowChangeEventHandler" msprop:Generator_RowDeletedName="tipo_logradouroRowDeleted" msprop:Generator_UserTableName="tipo_logradouro" msprop:Generator_RowChangedName="tipo_logradouroRowChanged" msprop:Generator_RowEvArgName="tipo_logradouroRowChangeEvent" msprop:Generator_RowClassName="tipo_logradouroRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tipo_logradouro_id" msprop:Generator_ColumnVarNameInTable="columntipo_logradouro_id" msprop:Generator_ColumnPropNameInRow="tipo_logradouro_id" msprop:Generator_ColumnPropNameInTable="tipo_logradouro_idColumn" msprop:Generator_UserColumnName="tipo_logradouro_id" type="xs:unsignedByte" />
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sigla" msprop:Generator_ColumnVarNameInTable="columnsigla" msprop:Generator_ColumnPropNameInRow="sigla" msprop:Generator_ColumnPropNameInTable="siglaColumn" msprop:Generator_UserColumnName="sigla">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tipo_profissional_site" msprop:Generator_TableClassName="tipo_profissional_siteDataTable" msprop:Generator_TableVarName="tabletipo_profissional_site" msprop:Generator_TablePropName="tipo_profissional_site" msprop:Generator_RowDeletingName="tipo_profissional_siteRowDeleting" msprop:Generator_RowChangingName="tipo_profissional_siteRowChanging" msprop:Generator_RowEvHandlerName="tipo_profissional_siteRowChangeEventHandler" msprop:Generator_RowDeletedName="tipo_profissional_siteRowDeleted" msprop:Generator_UserTableName="tipo_profissional_site" msprop:Generator_RowChangedName="tipo_profissional_siteRowChanged" msprop:Generator_RowEvArgName="tipo_profissional_siteRowChangeEvent" msprop:Generator_RowClassName="tipo_profissional_siteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tipo_profissional_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columntipo_profissional_id" msprop:Generator_ColumnPropNameInRow="tipo_profissional_id" msprop:Generator_ColumnPropNameInTable="tipo_profissional_idColumn" msprop:Generator_UserColumnName="tipo_profissional_id" type="xs:int" />
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="cadastro_profissional_site" msprop:Generator_TableClassName="cadastro_profissional_siteDataTable" msprop:Generator_TableVarName="tablecadastro_profissional_site" msprop:Generator_RowChangedName="cadastro_profissional_siteRowChanged" msprop:Generator_TablePropName="cadastro_profissional_site" msprop:Generator_RowDeletingName="cadastro_profissional_siteRowDeleting" msprop:Generator_RowChangingName="cadastro_profissional_siteRowChanging" msprop:Generator_RowEvHandlerName="cadastro_profissional_siteRowChangeEventHandler" msprop:Generator_RowDeletedName="cadastro_profissional_siteRowDeleted" msprop:Generator_RowClassName="cadastro_profissional_siteRow" msprop:Generator_UserTableName="cadastro_profissional_site" msprop:Generator_RowEvArgName="cadastro_profissional_siteRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cadastro_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columncadastro_id" msprop:Generator_ColumnPropNameInRow="cadastro_id" msprop:Generator_ColumnPropNameInTable="cadastro_idColumn" msprop:Generator_UserColumnName="cadastro_id" type="xs:int" />
+              <xs:element name="unidade_negocio_id" msprop:Generator_ColumnVarNameInTable="columnunidade_negocio_id" msprop:Generator_ColumnPropNameInRow="unidade_negocio_id" msprop:Generator_ColumnPropNameInTable="unidade_negocio_idColumn" msprop:Generator_UserColumnName="unidade_negocio_id">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tipo_profissional_id" msprop:Generator_ColumnVarNameInTable="columntipo_profissional_id" msprop:Generator_ColumnPropNameInRow="tipo_profissional_id" msprop:Generator_ColumnPropNameInTable="tipo_profissional_idColumn" msprop:Generator_UserColumnName="tipo_profissional_id" type="xs:int" />
+              <xs:element name="entidade_id" msprop:Generator_ColumnVarNameInTable="columnentidade_id" msprop:Generator_ColumnPropNameInRow="entidade_id" msprop:Generator_ColumnPropNameInTable="entidade_idColumn" msprop:Generator_UserColumnName="entidade_id" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="14" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nome" msprop:Generator_ColumnVarNameInTable="columnnome" msprop:Generator_ColumnPropNameInRow="nome" msprop:Generator_ColumnPropNameInTable="nomeColumn" msprop:Generator_UserColumnName="nome">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tipo_logradouro_id" msprop:Generator_ColumnVarNameInTable="columntipo_logradouro_id" msprop:Generator_ColumnPropNameInRow="tipo_logradouro_id" msprop:Generator_ColumnPropNameInTable="tipo_logradouro_idColumn" msprop:Generator_UserColumnName="tipo_logradouro_id" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="logradouro" msprop:Generator_ColumnVarNameInTable="columnlogradouro" msprop:Generator_ColumnPropNameInRow="logradouro" msprop:Generator_ColumnPropNameInTable="logradouroColumn" msprop:Generator_UserColumnName="logradouro" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="numero" msprop:Generator_ColumnVarNameInTable="columnnumero" msprop:Generator_ColumnPropNameInRow="numero" msprop:Generator_ColumnPropNameInTable="numeroColumn" msprop:Generator_UserColumnName="numero" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="bairro" msprop:Generator_ColumnVarNameInTable="columnbairro" msprop:Generator_ColumnPropNameInRow="bairro" msprop:Generator_ColumnPropNameInTable="bairroColumn" msprop:Generator_UserColumnName="bairro" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="complemento" msprop:Generator_ColumnVarNameInTable="columncomplemento" msprop:Generator_ColumnPropNameInRow="complemento" msprop:Generator_ColumnPropNameInTable="complementoColumn" msprop:Generator_UserColumnName="complemento" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cidade" msprop:Generator_ColumnVarNameInTable="columncidade" msprop:Generator_ColumnPropNameInRow="cidade" msprop:Generator_ColumnPropNameInTable="cidadeColumn" msprop:Generator_UserColumnName="cidade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UF_id" msprop:Generator_ColumnVarNameInTable="columnUF_id" msprop:Generator_ColumnPropNameInRow="UF_id" msprop:Generator_ColumnPropNameInTable="UF_idColumn" msprop:Generator_UserColumnName="UF_id" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CEP" msprop:Generator_ColumnVarNameInTable="columnCEP" msprop:Generator_ColumnPropNameInRow="CEP" msprop:Generator_ColumnPropNameInTable="CEPColumn" msprop:Generator_UserColumnName="CEP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="email" msprop:Generator_ColumnVarNameInTable="columnemail" msprop:Generator_ColumnPropNameInRow="email" msprop:Generator_ColumnPropNameInTable="emailColumn" msprop:Generator_UserColumnName="email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="telefone" msprop:Generator_ColumnVarNameInTable="columntelefone" msprop:Generator_ColumnPropNameInRow="telefone" msprop:Generator_ColumnPropNameInTable="telefoneColumn" msprop:Generator_UserColumnName="telefone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="observacao" msprop:Generator_ColumnVarNameInTable="columnobservacao" msprop:Generator_ColumnPropNameInRow="observacao" msprop:Generator_ColumnPropNameInTable="observacaoColumn" msprop:Generator_UserColumnName="observacao" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="data_registro" msprop:Generator_ColumnVarNameInTable="columndata_registro" msprop:Generator_ColumnPropNameInRow="data_registro" msprop:Generator_ColumnPropNameInTable="data_registroColumn" msprop:Generator_UserColumnName="data_registro" type="xs:dateTime" />
+              <xs:element name="usuario" msprop:Generator_ColumnVarNameInTable="columnusuario" msprop:Generator_ColumnPropNameInRow="usuario" msprop:Generator_ColumnPropNameInTable="usuarioColumn" msprop:Generator_UserColumnName="usuario">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="material_complemento_site" msprop:Generator_TableClassName="material_complemento_siteDataTable" msprop:Generator_TableVarName="tablematerial_complemento_site" msprop:Generator_TablePropName="material_complemento_site" msprop:Generator_RowDeletingName="material_complemento_siteRowDeleting" msprop:Generator_RowChangingName="material_complemento_siteRowChanging" msprop:Generator_RowEvHandlerName="material_complemento_siteRowChangeEventHandler" msprop:Generator_RowDeletedName="material_complemento_siteRowDeleted" msprop:Generator_UserTableName="material_complemento_site" msprop:Generator_RowChangedName="material_complemento_siteRowChanged" msprop:Generator_RowEvArgName="material_complemento_siteRowChangeEvent" msprop:Generator_RowClassName="material_complemento_siteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="material_id" msprop:Generator_ColumnVarNameInTable="columnmaterial_id" msprop:Generator_ColumnPropNameInRow="material_id" msprop:Generator_ColumnPropNameInTable="material_idColumn" msprop:Generator_UserColumnName="material_id" type="xs:int" minOccurs="0" />
+              <xs:element name="descricao" msprop:Generator_ColumnVarNameInTable="columndescricao" msprop:Generator_ColumnPropNameInRow="descricao" msprop:Generator_ColumnPropNameInTable="descricaoColumn" msprop:Generator_UserColumnName="descricao" type="xs:string" minOccurs="0" />
+              <xs:element name="informacoes_adicionais" msprop:Generator_ColumnVarNameInTable="columninformacoes_adicionais" msprop:Generator_ColumnPropNameInRow="informacoes_adicionais" msprop:Generator_ColumnPropNameInTable="informacoes_adicionaisColumn" msprop:Generator_UserColumnName="informacoes_adicionais" type="xs:string" minOccurs="0" />
+              <xs:element name="data_ultima_alteracao" msprop:Generator_ColumnVarNameInTable="columndata_ultima_alteracao" msprop:Generator_ColumnPropNameInRow="data_ultima_alteracao" msprop:Generator_ColumnPropNameInTable="data_ultima_alteracaoColumn" msprop:Generator_UserColumnName="data_ultima_alteracao" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="usuario_alteracao" msprop:Generator_ColumnVarNameInTable="columnusuario_alteracao" msprop:Generator_ColumnPropNameInRow="usuario_alteracao" msprop:Generator_ColumnPropNameInTable="usuario_alteracaoColumn" msprop:Generator_UserColumnName="usuario_alteracao" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:classe_material" />
+      <xs:field xpath="mstns:classe_material_id" />
+    </xs:unique>
+    <xs:unique name="classificacao_material_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:classificacao_material" />
+      <xs:field xpath="mstns:classificacao_material_id" />
+    </xs:unique>
+    <xs:unique name="cor_material_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:cor_material" />
+      <xs:field xpath="mstns:cor_material_id" />
+    </xs:unique>
+    <xs:unique name="departamento_material_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:departamento_material" />
+      <xs:field xpath="mstns:departamento_material_id" />
+    </xs:unique>
+    <xs:unique name="departamento_sub_material_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:departamento_sub_material" />
+      <xs:field xpath="mstns:departamento_sub_material_id" />
+      <xs:field xpath="mstns:departamento_material_id" />
+    </xs:unique>
+    <xs:unique name="departamento_sub_material_material_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:departamento_sub_material_material" />
+      <xs:field xpath="mstns:departamento_sub_material_id" />
+      <xs:field xpath="mstns:material_id" />
+    </xs:unique>
+    <xs:unique name="fornecedor_material_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:fornecedor_material" />
+      <xs:field xpath="mstns:fornecedor_material_id" />
+    </xs:unique>
+    <xs:unique name="grupo_material_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:grupo_material" />
+      <xs:field xpath="mstns:grupo_material_id" />
+    </xs:unique>
+    <xs:unique name="linha_material_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:linha_material" />
+      <xs:field xpath="mstns:fornecedor_material_id" />
+      <xs:field xpath="mstns:linha_material_id" />
+    </xs:unique>
+    <xs:unique name="material_promocao_site_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:material_promocao_site" />
+      <xs:field xpath="mstns:ordem_id" />
+    </xs:unique>
+    <xs:unique name="material_site_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:material_site" />
+      <xs:field xpath="mstns:material_id" />
+    </xs:unique>
+    <xs:unique name="medida_material_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:medida_material" />
+      <xs:field xpath="mstns:medida_material_id" />
+    </xs:unique>
+    <xs:unique name="tipo_logradouro_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tipo_logradouro" />
+      <xs:field xpath="mstns:tipo_logradouro_id" />
+    </xs:unique>
+    <xs:unique name="tipo_profissional_site_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tipo_profissional_site" />
+      <xs:field xpath="mstns:tipo_profissional_id" />
+    </xs:unique>
+    <xs:unique name="cadastro_profissional_site_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:cadastro_profissional_site" />
+      <xs:field xpath="mstns:cadastro_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
